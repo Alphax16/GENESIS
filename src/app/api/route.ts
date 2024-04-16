@@ -6,7 +6,7 @@ type ResponseData = {
 
 // export default function handler(
 export async function GET(
-	req: NextApiRequest,
+	req: Request,
 	res: NextApiResponse<ResponseData>
 ) {
 	// res.status(200).json({ message: "Hello from Next.js!" });

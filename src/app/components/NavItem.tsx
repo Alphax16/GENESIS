@@ -1,8 +1,9 @@
 import React from "react";
 import { useNavContext } from "@/contexts/NavContext";
 import Link from "next/link";
+import { NavItemProps } from "@/interfaces/NavItemTypes";
 
-const NavItem = ({ index, linkTo, item }) => {
+const NavItem: React.FC<NavItemProps> = ({ index, linkTo, item }) => {
 	const { navKey, setNavKey } = useNavContext();
 
 	const handleNavItemClick = (index: number) => {
