@@ -3,25 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/ai": "^1.1.0",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.2",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "jspdf": "^2.5.1",
+    "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-icons": "^5.0.1",
+    "string_decoder": "^1.3.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "typescript": "^5"
   }
 }
